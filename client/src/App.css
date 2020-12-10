@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+
+.myHome {
+  padding: 40px 0;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  cursor: pointer;
+}
+
+.login {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  /* background: linear-gradient(to right, #e0eafc, #cfdef3); */
+  display: flex;
+}
+
+.login .loginContainer {
+  padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.2);
+}
+
+.login .loginContainer label {
+  color: black;
+  margin: 14px 0;
+  display: #4a4a4a;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.login .loginContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #4a4a4a;
+  letter-spacing: 1px;
+}
+
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .loginContainer .btnContainer Button{
+  width: 100%;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: #858585;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: #0066ff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: red;
+}
+
+.login .loginContainer .errorMsg {
+  color: red;
+  font-size: 16px;
+}
+
+.hero {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.hero .head{
+  width: 100%;
+}
+
+.hero .main{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.read{
+  width: 500px;
+  display: inline-block;
+}
+
+.create{
+  margin-top: 50px;
+  width: 300px;
+  display: inline-block;
+  float: right;
+  margin-right: 100px;
+}
+
+.create input{
+  height: 40px;
+  width: 100%;
+  margin: 10px 10px;
+}
+
+.create textarea{
+  width: 100%;
+  margin: 10px 10px;
+}
+
+.show {
+  margin: 50px 0;
+}
+
+.show .post .article{
+  background: white;
+}
+
+.hr{
+  background-color: gainsboro;
+  border: none;
+  height: 2px;
+  width: 100%;
+}
+
+.show .post .article div{
+  margin-bottom: 20px;
+}
+
+.post-btn-group{
+  margin: 40px 20px;
+}
+.post-btn-group Button{
+  margin: 10px;
+}
+.hero nav {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero nav h2 {
+  color: rgb(255, 255, 255);
+}
+
+.hero ul li{
+  color: white;
+}
+
+.hero nav button {
+  width: 86px;
+  padding: 8px 0;
+}
